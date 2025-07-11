@@ -1,0 +1,14 @@
+{
+  "name": "@repo/react-query-config",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "exports": {
+    "./common": "./src/common/index.ts",
+    "./queries": "./src/queries/index.ts",
+    "./mutations": "./src/mutations/index.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.82.0",
+    "@tanstack/react-query-devtools": "^5.82.0"
+  }
+}
